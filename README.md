@@ -68,11 +68,9 @@ To simplify and scale the model class, the following annotations will be added w
 @Getter
 @Setter
 ```
-@Entity: Marks this class as a JPA entity for persistence.
-
-@NoArgsConstructor, @AllArgsConstructor: Eliminates manual constructor boilerplate (via Lombok).
-
-@Getter, @Setter: Auto-generate getters and setters to simplify encapsulation boilerplate.
+- @Entity: Marks this class as a JPA entity for persistence.
+- @NoArgsConstructor, @AllArgsConstructor: Eliminates manual constructor boilerplate (via Lombok).
+- @Getter, @Setter: Auto-generate getters and setters to simplify encapsulation boilerplate.
 
 
 ### How to Run:
